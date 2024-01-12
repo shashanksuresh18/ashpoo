@@ -1,0 +1,113 @@
+@media (max-width:767px){
+    .idy_fl_1{
+        top: 120px;
+        left: -34%;
+        transform: scale(0.3);
+    }
+    .idy_fl_2 {
+        top: 0;
+        left: 0;
+        transform: scale(0.3);
+    }
+    .idy_fl_3 {
+        top: 230px;
+        left: 5%;
+        transform: scale(0.3);
+        display: none;
+    }
+    .idy_fl_4 {
+        top: 400px;
+        left: 5%;
+    }
+    .idy_fl_5 {
+        top: 35px;
+        left: 10%;
+        transform: scale(0.3);
+        left: 0;
+    }
+    .idy_fl{
+        transform: scale(0.4);
+    }
+    .idy_fl_6 {
+        top: 270px;
+        left: 2%;
+        display: none;
+    }
+    .idy_fl_7 {
+        top: 200px;display: none;}
+    .idy_fl_9 {
+        top: 80px;
+        left: 7%;
+        display: none;
+    }
+    .idy_fl_10 {
+        top: 100px;
+        display: none;
+        right: 0;
+    }
+    .idy_fl_16{display: none;}
+    .idy_fl_17 {
+        top: 180px;
+        right: -7%;display: none;
+        transform: scale(0.4);
+    }
+    .idy_fl_18 {
+        top: 350px;
+        right: 0;
+        transform: scale(0.4);
+        display: none;
+    }
+    .idy_fl_19 {
+        top: 300px;
+        right: 10%;
+        transform: scale(0.4);
+        right: 0;
+    }
+    .hashTag{font-size: 50px;}
+    .heart{bottom: -100px;width: 250px;}
+    .gettingMarried{width: 100%;}
+    .heart h1 {
+        font-size: 25px;
+    }
+    .heart h3 {
+        font-size: 28px;
+    }
+    .heart p {
+        font-size: 14px;
+    }
+    .texture-bottom{bottom: -1px;}
+    .heading{font-size: 28px;}
+    #timer .heartShape:after, #timer .heartShape:before {
+        width: 50px;
+        height: 50px;}
+        #timer .heartShape{width: 50px;height: 50px;}
+        .timeView{width: 50px;height: 50px;margin: 0 20px;}
+        #timer .time{font-size: 18px; line-height: 18px;}
+        #timer .heartShape:before {
+            top: -26px;
+            left: -4px;}
+    #timer .heartShape:after {
+        top: -4px;
+        left: 18px;}
+    .banner{
+        height: 420px;
+        background-attachment: scroll;
+    }
+    #timer .time.mobile{
+        display: block;
+    }
+    #timer .time.web{
+        display: none;
+    }
+    .video{height: 475px;}
+    .section{padding: 50px 0;}
+    .groom, .bride{margin:0 auto; text-align: center;}
+    
+    .header.fixed{display: none;}
+    .ourContent .text {
+        padding: 30px 30px 0;
+    }
+}
+@media (max-width:575px){
+
+}

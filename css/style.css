@@ -1,0 +1,356 @@
+body{min-height: 100%;overflow: hidden;overflow-y: auto;
+    /*background:#fbefefc9;*/
+    position: relative;
+    background: #fff;color: #626262;
+    font-family: 'Raleway', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #df0201; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #df0201; 
+  }
+  img{max-width: 100%;}
+#page{display: none;}
+#loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Great Vibes', cursive;
+}
+h6{font-size:28px}
+html {
+    scroll-behavior: smooth;
+  }
+.header{
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow:0 6px 11px rgba(0,0,0,0.05);
+    z-index: 999;
+}
+.logo{font-family: 'Great Vibes', cursive;font-size: 30px;margin: 0; padding: 0 40px;color: #626262;}
+.header.fixed{
+    
+    visibility: visible;
+    opacity: 1;
+}
+
+.idy_flowers {
+    position: absolute;
+    z-index: 4;
+    height: 100%;
+    width: 100%;
+    pointer-events: none; 
+}
+.idy_fl {
+    position: absolute;
+    transition: all 3s;
+    transform: scale(0.6);
+}
+.idy_fl_1 {
+    top: 250px;
+    left: -10%;
+    transform: scale(0.7);
+}
+.idy_fl_2 {
+    top: 200px;
+    left: 4%;
+    transform: scale(0.5);
+}
+.idy_fl_3 {
+    top: 200px;
+    left: 15%;
+    transform: scale(0.4);
+}
+.idy_fl_4 {
+    top: 440px;
+    left: 25%;
+}
+.idy_fl_5 {
+    top: 40px;
+    left: 21%;
+    transform: scale(0.4);
+}
+.idy_fl_6 {
+    top: 350px;
+    left: 3%;
+}
+.idy_fl_7 {
+    top: 250px;
+    right: 0%;
+}
+.idy_fl_8 {
+    top: 150px;
+    right: -30px;
+}
+.idy_fl_9 {
+    top: 100px;
+    left: 19%;
+}
+.idy_fl_10 {
+    top: 100px;
+    right: 100px;
+}
+.idy_fl_13 {
+    top: 0px;
+    left: 0%;
+}
+.idy_fl_14 {
+    top: 120px;
+    left: 12%;
+}
+.idy_fl_15 {
+    top: 120px;
+    left: 14%;
+}
+.idy_fl_16 {
+    top: 240px;
+    right: 12%;
+    transform: scale(0.5);
+}
+.idy_fl_17 {
+    top: 180px;
+    right: -4%;
+    transform: scale(0.6);
+}
+.idy_fl_18 {
+    top: 380px;
+    right: 23%;
+    transform: scale(0.7);
+}
+.idy_fl_19 {
+    top: 370px;
+    right: 20%;
+    transform: scale(0.6);
+}
+.idy_fl_20 {
+    top: 30px;
+    right: 20%;
+    transform: scale(0.3);
+}
+.mobile .petals_mobile .idy_flowers {
+    display: none;
+  }
+/*****Banner****/
+.f-30{font-size: 30px;}
+.banner{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background: url(../images/Pooja_2.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: 100s ease 0s normal none infinite scales;
+}
+.banner:after{
+    position: absolute;
+    left:0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    content: "";
+    z-index: 1;
+}
+.hashTag{text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    z-index: 999;
+    top: 0;
+    transform: translateX(-50%);
+    padding: 15px;
+    font-size: 80px;}
+.heart{
+    position: absolute;
+    left: 50%;
+    bottom:-150px;
+    transform: translateX(-50%);text-align: center;
+    z-index: 99;
+}
+.heart img{width: 400px;}
+.gettingMarried{
+    position: absolute;color: #fff;
+    left: 50%;width:350px;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+.heart h1{
+    font-size: 45px;    
+}
+.heart h3{
+    font-size: 35px;
+}
+.heart p{font-size: 18px;}
+.texture-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.section{padding: 70px 0;}
+.section#section1{padding-top: 180px;}
+.heading{text-align: center;font-size: 35px;position: relative;padding-bottom: 40px;
+    margin-bottom: 60px;line-height: 45px;}
+.heading span{font-size: 24px;font-family: 'Raleway', sans-serif;display:block}
+.heading::after{
+    content: '';
+    background: url(../images/seprator.png) no-repeat;
+    height: 19px;
+    width: 270px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -135px;
+}
+
+#timer .heartShape{
+    width: 80px;
+  height: 80px;
+  position: relative;
+  transform: rotate(-45deg);
+  border: 4px solid #cd0301;
+  border-radius: 1.6px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+#timer .heartShape:after, #timer .heartShape:before{
+    content: '';
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    border: 4px solid #cd0301;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+.timeView{
+    width: 80px;
+    height: 58px;
+    position: relative;
+    margin: 0 30px;
+    font-family: 'Great Vibes', cursive;
+}
+#timer .heartShape:before{
+    top: -41px;
+    left: -4px;
+    transform: rotate(45deg);
+}
+#timer .heartShape:after{
+    top: -4px;
+    left: 33px;
+    transform: rotate(135deg);
+}
+#timer .time{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+}
+#timer .time span{
+    display: block;
+}
+#timer .time.mobile{
+    display: none;
+}
+.groom img, .bride img{border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    -webkit-box-shadow: 0 2px 15px rgb(0 0 0 / 50%);box-shadow: 0 2px 15px rgb(0 0 0 / 50%);
+    background: #000;}
+.bride{margin-top: 20px;}
+.groom, .brider{
+    position: relative;
+    z-index: 99;
+}
+
+.sheSaid, .heSaid{
+    box-shadow: 1px 1px 7px rgb(0 0 0 / 40%);
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 99;
+    background: #fff;
+}
+.sheSaid{margin-bottom: 25px;}
+.sheSaid p, .heSaid p{margin: 0;}
+.us{
+    margin-top: 40px;
+}
+.ourContent p {
+    line-height: 30px;
+    margin: 20px 0;
+}
+.ourContent .text{padding-right: 30px;    position: relative;
+    z-index: 99;
+    background: #fff;}
+
+/**Gallery**/
+.filter-button{
+    margin: 0 10px;
+}
+.filter-button:focus{outline: none;}
+
+.usEngagement{
+    margin: 15px auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.engagement{text-align: center;max-width: 320px;margin: 0 auto;}
+.engagement h4{line-height: 40px;}
+.video{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 99;
+}
+.video video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+.invite h3 span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin: 10px 0 30px;
+    font-style: italic;
+}
+.contact img{width:100%;}
+/* .contact{background: url(../images/pb13.jpg); width: 100%; min-height: 500px;
+background-size: cover;} */
+
+
+.mehndi{background: red;}
